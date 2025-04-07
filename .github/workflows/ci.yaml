@@ -20,11 +20,11 @@ on:
       xad_repo:
         description: XAD repository in <owner>/<repo> format
         required: true
-        default: auto-differentiation/xad
+        default: raneamri/xad
       xad_branch:
         description: Branch or tag for XAD repository
         required: true
-        default: main
+        default: fix/windows-copysign
   schedule:
     - cron: '02 5 * * *'  # 5:02 every day
 env:
