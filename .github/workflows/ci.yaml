@@ -232,7 +232,7 @@ jobs:
       matrix:
         disable_aad: ["ON", "OFF"]
         cxx: ["17", "20"]
-    runs-on: macos-13
+    runs-on: macos-15
     env:
       CXXFLAGS: -stdlib=libc++ -mmacosx-version-min=10.9
     steps:
